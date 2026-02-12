@@ -94,7 +94,7 @@ export default function CreateInterview() {
   };
 
   const mockInterviewId = interviewId || "942213d8-afa8-4cc5-93c9-3f";
-  const interviewLink = `${window.location.origin}/interview/${mockInterviewId}`;
+  const interviewLink = `${import.meta.env.VITE_APP_URL || window.location.origin}/interview/${mockInterviewId}`;
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(interviewLink);
