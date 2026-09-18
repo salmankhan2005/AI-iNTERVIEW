@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="interviewGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#interviewGrad)" />
+  <path d="M16 7c-4.4 0-8 3.1-8 7 0 2.2 1.2 4.2 3.1 5.5l-.9 3.5 3.8-1.9c.7.2 1.3.3 2 .3 4.4 0 8-3.1 8-7s-3.6-7-8-7z" fill="#ffffff" />
+  <circle cx="12.5" cy="14" r="1.2" fill="#3b82f6" />
+  <circle cx="16" cy="14" r="1.2" fill="#6366f1" />
+  <circle cx="19.5" cy="14" r="1.2" fill="#8b5cf6" />
+</svg>
